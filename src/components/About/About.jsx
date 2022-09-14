@@ -1,6 +1,9 @@
-import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react'
+import { DownloadIcon } from '@chakra-ui/icons'
+import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react'
 import React from 'react'
-import profilepic from '../Images/Profilepic.png'
+import profilepic from '../../Images/Profilepic.png'
+import pdf from '../../Resume/Chhatrapal_Ahirwar_Resume_FSWD.pdf'
+import Type from './Type'
 const About = () => {
   return (
     <Box mt={'100px'}>
@@ -14,11 +17,11 @@ const About = () => {
 
 <Text fontSize={'35px'}> Hey I'm </Text>
 <Text fontWeight={'bold'} fontSize='44px' >Chhatrapal Ahirwar</Text>
-<Text color={'gray.400'} >Full Stack Web Developer</Text>
+<Text fontWeight={'bold'} color={'blue.400'}><Type color={'blue.400'} >Full Stack Web Developer</Type></Text>
 <Text> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptas non ipsa, odit at quidem placeat expedita libero eveniet consequuntur. Eos suscipit molestiae, facere odio totam eligendi dolor inventore reprehenderit? </Text>
 
 
-<Flex mt={'20px'}><button className='Resumebtn' >Dowload Resume</button></Flex>
+<Flex mt={'20px'}><button href={pdf} target='_blank' className='Resumebtn' ><DownloadIcon/> Dowload Resume</button></Flex>
 
 </Flex>
 
