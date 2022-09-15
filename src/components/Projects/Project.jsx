@@ -8,7 +8,7 @@ const Project = () => {
 
    {/* //Card  */}
    <Box>
-<Image/>
+<Image src=''/>
 <Text/>
 <Text></Text>
 <button><ExternalLinkIcon/>View Project</button>

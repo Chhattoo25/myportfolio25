@@ -21,7 +21,7 @@ const About = () => {
 <Text> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptas non ipsa, odit at quidem placeat expedita libero eveniet consequuntur. Eos suscipit molestiae, facere odio totam eligendi dolor inventore reprehenderit? </Text>
 
 
-<Flex mt={'20px'}><button href={pdf} target='_blank' className='Resumebtn' ><DownloadIcon/> Dowload Resume</button></Flex>
+<Flex mt={'20px'}> <a  download href={pdf} target='_blank'><button  className='Resumebtn' ><DownloadIcon/> Dowload Resume</button></a></Flex>
 
 </Flex>
 
