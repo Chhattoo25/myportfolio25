@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/myportfolio25/portfolio/static/css/main.dee1aaac.css",
-    "main.js": "/myportfolio25/portfolio/static/js/main.bd2f29be.js",
-    "static/js/787.1ed0c42c.chunk.js": "/myportfolio25/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Chhatrapal_Ahirwar_Resume_FSWD.pdf": "/myportfolio25/portfolio/static/media/Chhatrapal_Ahirwar_Resume_FSWD.fc116d7609da57e91892.pdf",
-    "static/media/Profilepic.png": "/myportfolio25/portfolio/static/media/Profilepic.72a24fa8e5f6af662050.png",
-    "index.html": "/myportfolio25/portfolio/index.html",
-    "main.dee1aaac.css.map": "/myportfolio25/portfolio/static/css/main.dee1aaac.css.map",
-    "main.bd2f29be.js.map": "/myportfolio25/portfolio/static/js/main.bd2f29be.js.map",
-    "787.1ed0c42c.chunk.js.map": "/myportfolio25/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/myportfolio25/static/css/main.dee1aaac.css",
+    "main.js": "/myportfolio25/static/js/main.67b6fc81.js",
+    "static/js/787.1ed0c42c.chunk.js": "/myportfolio25/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Chhatrapal_Ahirwar_Resume_FSWD.pdf": "/myportfolio25/static/media/Chhatrapal_Ahirwar_Resume_FSWD.fc116d7609da57e91892.pdf",
+    "static/media/Profilepic.png": "/myportfolio25/static/media/Profilepic.72a24fa8e5f6af662050.png",
+    "index.html": "/myportfolio25/index.html",
+    "main.dee1aaac.css.map": "/myportfolio25/static/css/main.dee1aaac.css.map",
+    "main.67b6fc81.js.map": "/myportfolio25/static/js/main.67b6fc81.js.map",
+    "787.1ed0c42c.chunk.js.map": "/myportfolio25/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dee1aaac.css",
-    "static/js/main.bd2f29be.js"
+    "static/js/main.67b6fc81.js"
   ]
 }
