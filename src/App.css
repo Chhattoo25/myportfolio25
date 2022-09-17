@@ -1,16 +1,49 @@
-.Resumebtn{
+.Resumebtn {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
 
-background-color: black;
-color: white;
-border-radius: 25px;
-padding: 10px 20px;
-
-transition: all 0.37s;
-
+  transition: all 0.37s;
 }
 
-.Resumebtn:hover{
- background-color: gray;
- color: rgb(241, 229, 241);
- transform: scale(0.90);
+.Resumebtn:hover {
+  background-color: gray;
+  color: rgb(241, 229, 241);
+  transform: scale(0.9);
+}
+
+.project-heading {
+  color: rgb(99, 74, 74) !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
+.image-container1 {
+  background-image: url("https://user-images.githubusercontent.com/95302680/187060541-86ceb8de-0b8f-4e7c-974e-80fec7a0aa9c.png");
+  background-size: cover;
+}
+.image-container1 > img {
+  width: 100%;
+  display: block;
+  transition: opacity 1s ease;
+}
+
+.image-container1:hover img {
+  opacity: 0;
+}
+
+.image-container2 {
+  background-image: url("https://cdn.hashnode.com/res/hashnode/image/upload/v1642939092811/M3Pjd5mt-.png?auto=compress");
+  background-size: cover;
+}
+.image-container2 > img {
+  width: 100%;
+  display: block;
+  transition: opacity 1s ease;
+}
+
+.image-container2:hover img {
+  opacity: 0;
 }

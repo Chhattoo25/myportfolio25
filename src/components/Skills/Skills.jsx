@@ -40,7 +40,7 @@ function Skills() {
         m="auto"
         boxShadow="0px 5px 15px 0px #bbbbbb"
       >
-        <Text
+        <Text   color={isDark ? "gray.200" : "gray.600"}
           data-aos="flip-up"
           data-aos-duration="1500"
           fontSize={["30px", "30px", "40px"]}
@@ -73,7 +73,7 @@ function Skills() {
             boxSize="100px"
             src="https://cdn-icons-png.flaticon.com/512/732/732212.png?w=360"
           />
-          <Text p="4" fontSize="xl" fontWeight="semibold">
+          <Text   color={isDark ? "gray.200" : "gray.600"} p="4" fontSize="xl" fontWeight="semibold">
             HTML
           </Text>
         </Box>
@@ -82,7 +82,7 @@ function Skills() {
             boxSize="100px"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
           />
-          <Text p="4" fontSize="xl" fontWeight="semibold">
+          <Text   color={isDark ? "gray.200" : "gray.600"} p="4" fontSize="xl" fontWeight="semibold">
             CSS
           </Text>
         </Box>
@@ -210,7 +210,7 @@ function Skills() {
             boxSize="100px"
             src="https://user-images.githubusercontent.com/95302680/190498803-78767b2b-7faf-4882-bd54-aaca0ca39b4b.png"
           />
-          <Text p="4" fontSize="xl" fontWeight="semibold">
+          <Text   color={isDark ? "gray.200" : "gray.600"} p="4" fontSize="xl" fontWeight="semibold">
             TYPESCRIPT
           </Text>
         </Box>
@@ -220,7 +220,7 @@ function Skills() {
             boxSize="100px"
             src="https://user-images.githubusercontent.com/95302680/190499289-8ab72f1f-e98e-4cc0-af81-50b196eae0b9.png"
           />
-          <Text p="4" fontSize="xl" fontWeight="semibold">
+          <Text   color={isDark ? "gray.200" : "gray.600"} p="4" fontSize="xl" fontWeight="semibold">
             BOOTSTRAP
           </Text>
         </Box>
@@ -230,7 +230,7 @@ function Skills() {
             boxSize="100px"
             src="https://user-images.githubusercontent.com/95302680/190499679-db4f4191-3457-4aea-aa74-dc34b400d09e.png"
           />
-          <Text p="4" fontSize="xl" fontWeight="semibold">
+          <Text   color={isDark ? "gray.200" : "gray.600"}  p="4" fontSize="xl" fontWeight="semibold">
             CYPRESS
           </Text>
         </Box>
